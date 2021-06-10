@@ -13,4 +13,7 @@ public class divisionCalcController {
     public String calculate() {
         return "<calculation result>";
     }
+
+    // URL: /api/calcDivision/numerator/x/denominator/y/ -> div = x/y
+
 }
