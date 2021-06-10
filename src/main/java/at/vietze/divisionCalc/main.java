@@ -11,7 +11,7 @@ public class main {
     public static void main(String[] args) {
         System.out.println("Project started...");
         ResourceConfig rc = new ResourceConfig().packages("at.vietze.divisionCalc");
-        HttpServer serv = JdkHttpServerFactory.createHttpServer(URI.create("http://localhost:1234/"), rc);
+        HttpServer serv = JdkHttpServerFactory.createHttpServer(URI.create("http://localhost:3256/"), rc);
         System.out.println("Server up and running...");
 
         try {
