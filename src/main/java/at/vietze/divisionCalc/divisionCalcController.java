@@ -26,6 +26,7 @@ public class divisionCalcController {
             @PathParam("num") String x,
             @PathParam("denom") String y
     ) {
-        return String.format("%d", parseInt(x)/parseInt(y));
+        Calculator calc = new Calculator();
+        return String.format("%d", calc.div(parseInt(x), parseInt(y)));
     }
 }
